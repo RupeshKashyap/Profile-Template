@@ -2,7 +2,10 @@
 jQuery(document).ready(function ($) {
 	
 	//if submit button is clicked
-	$('#submit').click(function () {		
+	$('#submit').click(function () {	
+		
+		console.log("submitting ");
+		
 		
 		//Get the data from all the fields
 		var name = $('input[name=name]');
