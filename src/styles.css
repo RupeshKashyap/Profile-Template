@@ -24,7 +24,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a,a:hover {
-	color:#92DD03 ;
+	color:whitesmoke ;
 	text-decoration: none;
 }
 img {max-width: 100%;}
@@ -43,7 +43,9 @@ img {max-width: 100%;}
 }
 
 .navArea {
-	/*float:right;*/
+	/* float:left; */
+	/* margin-left: 8%; */
+	background-color: #92DD03;
 }
 .navwrapper .container {
 	padding:0;
@@ -70,7 +72,7 @@ img {max-width: 100%;}
 /* Special class on .container surrounding .navbar,used for positioning it into place. */
 .navbar-wrapper {
 	margin-top:0px;
-	height:80px;
+	/* height:80px; */
 	position:relative;
 	z-index:15;
 	margin-right:-15px;
@@ -876,4 +878,17 @@ blockquote cite {
 }
 blockquote cite:before {
 	content: "\2014 \2009";
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.menuItem{
+	margin-left: 100px;
+	font-size: 20px;
+}
+.education{
+	margin-top: 80px;
+}
+.download-btn{
+	color:#333333;
 }
